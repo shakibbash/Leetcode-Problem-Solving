@@ -1,0 +1,19 @@
+var isPowerOfTwo = function(n) {
+
+    for(x=0;x<31;x++){
+    if(n==2**x){
+          console.log('True')
+          return;
+    }
+}
+    console.log('False')
+
+};
+
+
+
+let n=6;
+isPowerOfTwo (n);
+
+// BITWISE ANS OPERATION TO CHECK POWER OF TWO
+
